@@ -1,0 +1,79 @@
+/* Añade estilos para la lista de usuarios */
+.user-list {
+  list-style: none;
+  padding: 0;
+}
+
+.user-list-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd; /* Borde para resaltar cada usuario */
+  border-radius: 5px;
+  background-color: #f9f9f9; /* Fondo para mayor legibilidad */
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* Estilos específicos para los botones */
+.user-actions button {
+  padding: 8px 12px;
+  background-color: #4caf50; /* Verde para el botón "Editar" */
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.user-actions button.delete {
+  background-color: #f44336; /* Rojo para el botón "Eliminar" */
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination button {
+  display: inline-block;
+  margin: 4px;
+  padding: 8px;
+  background-color: lightgray;
+}
+/* Estilos para el formulario de usuario */
+.user-form {
+  margin-top: 20px; /* Agrega un espacio superior para separar el formulario de la lista de usuarios */
+}
+
+.user-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.user-form input,
+.user-form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+}
+
+.user-form button {
+  padding: 8px 12px;
+  background-color: #2196f3; /* Azul para el botón "Agregar" */
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.user-form button:hover {
+  background-color: #0b7dda; /* Cambia el color al pasar el ratón sobre el botón "Agregar" */
+}
